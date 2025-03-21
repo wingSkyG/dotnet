@@ -39,6 +39,10 @@ internal class TypeInfo
         EventInfo[] eis = t.GetEvents();
         PrintMembers(eis);
 
+        //Assembly a = Assembly.LoadFile(@"C:\Windows\System32\calc.exe"); // !获取不到计算器路径，报错
+        //Type[] types = a.GetTypes();
+        //PrintMembers(types);
+
         Console.ReadKey();
     }
 
